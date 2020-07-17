@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+
+*{ margin:0; padding:0;}
+
+a {blr:expression(this.onFocus=this.blur())}
+
+body{ font:normal 9pt "宋体"; background:#EEE; SCROLLBAR-BASE-COLOR:#E1E1E1;}
+a{ text-decoration:none; color:#000;}
+
+li{ list-style:none;}
+	
+dl#con{ display:block; height:100%; padding-top:2px; background:url(meta_back.bmp) repeat-x top left;}
+	dl#con dt{ display:block; height:20px; text-align:left; background:url(meta_titleback.bmp) repeat-x top left; padding-left:15px;}
+		dl#con dt a{ display:block; height:20px; font:bold 10pt "宋体"; background:url(meta_titlebtn.bmp) no-repeat top left; padding-left:20px; line-height:20px;}
+
+	dl#con dd{ display:block; text-align:left; padding-left:25px; padding-top:8px; background:#EEE;}
+		dl#con dd ul{ width:100%;}
+			dl#con dd ul li{ display:block; width:100%; height:20px; float:left;}
+				dl#con dd ul li a{ width:100%; height:20px;}
+				dl#con dd ul li a:hover,dl#con dd ul li a:active{ text-decoration:underline; color:#0000FF;}
+		
